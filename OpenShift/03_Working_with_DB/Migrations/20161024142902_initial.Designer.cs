@@ -14,7 +14,7 @@ namespace HelloReact.Migrations
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
-                .HasAnnotation("ProductVersion", "1.0.1");
+                .HasAnnotation("ProductVersion", "1.1.0");
 
             modelBuilder.Entity("HelloReact.Models.ToDo", b =>
                 {

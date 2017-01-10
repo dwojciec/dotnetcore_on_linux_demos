@@ -28,7 +28,7 @@ namespace HelloReact
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables();
-
+        //env.IsEnvironment("CustomEnvironment")
             if (env.IsDevelopment())
             {
                 
